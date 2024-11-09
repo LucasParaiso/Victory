@@ -1,0 +1,25 @@
+[09-Nov-2024 02:36:49 America/Fortaleza] PHP Warning:  require(/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:36:49 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hglp8353/victory.lparaiso.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:43:37 America/Fortaleza] PHP Warning:  require(/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:43:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hglp8353/victory.lparaiso.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:43:37 America/Fortaleza] PHP Warning:  require(/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:43:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hglp8353/victory.lparaiso.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:50:36 America/Fortaleza] PHP Warning:  require(/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:50:36 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hglp8353/victory.lparaiso.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:50:39 America/Fortaleza] PHP Warning:  require(/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php): Failed to open stream: No such file or directory in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13
+[09-Nov-2024 02:50:39 America/Fortaleza] PHP Fatal error:  Uncaught Error: Failed opening required '/home1/hglp8353/victory.lparaiso.com/public/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/hglp8353/victory.lparaiso.com/public/index.php:13
+Stack trace:
+#0 {main}
+  thrown in /home1/hglp8353/victory.lparaiso.com/public/index.php on line 13

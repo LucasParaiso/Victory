@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://localhost'),
+    'url' => env('APP_URL', 'https://victory.lparaiso.com'),
 
     /*
     |--------------------------------------------------------------------------
@@ -97,7 +97,7 @@ return [
 
     'cipher' => 'AES-256-CBC',
 
-    'key' => env('APP_KEY'),
+    'key' => env('APP_KEY', 'base64:MXF4eGR3NnBnMm5jYXdqYzQ1dnB2ZnE0Zm01MmxibXU='),
 
     'previous_keys' => [
         ...array_filter(
