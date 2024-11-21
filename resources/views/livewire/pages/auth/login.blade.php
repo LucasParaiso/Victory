@@ -17,7 +17,7 @@ $login = function () {
 
     Session::regenerate();
 
-    $this->redirectIntended(default: route('dashboard', absolute: false), navigate: true);
+    $this->redirectIntended(default: route('/', absolute: false), navigate: true);
 };
 
 ?>
@@ -36,7 +36,7 @@ $login = function () {
 
         <!-- Password -->
         <div class="mt-4">
-            <x-input-label for="password" :value="__('Password')" />
+            <x-input-label for="password" :value="__('Senha')" />
 
             <x-text-input wire:model="form.password" id="password" class="block mt-1 w-full"
                 type="password"
@@ -67,7 +67,7 @@ $login = function () {
             </a>
             @endif
 
-            <x-primary-button class="ms-3">
+            <x-primary-button class="ms-3 bg-black">
                 {{ __('Entrar') }}
             </x-primary-button>
         </div>

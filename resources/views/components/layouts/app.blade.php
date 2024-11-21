@@ -18,7 +18,7 @@
 </head>
 
 <body class="bg-gray text-white">
-    @if (Route::hasMiddlewareGroup('auth'))
+    @if (Route::has('/'))
     <livewire:topbar>
     @endif
 
