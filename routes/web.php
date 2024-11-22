@@ -3,6 +3,7 @@
 use App\Livewire\Campaigns;
 use App\Livewire\Characters;
 use App\Livewire\Profile;
+use App\Livewire\Sheet;
 use Illuminate\Support\Facades\Route;
 
 Route::redirect('/', '/characters')

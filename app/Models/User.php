@@ -45,4 +45,9 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+    
+    public function sheets()
+    {
+        return $this->hasMany(Sheet::class, 'user', 'id');
+    }
 }

@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('sheets', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger(column: 'user');
 
             $table->string('name');
             $table->string('archetype')->nullable();
@@ -35,6 +36,12 @@ return new class extends Migration
             $table->integer('max_action')->default(1);
             
             $table->text('annotation')->nullable();
+            
+            $table->foreign('user')
+                  ->references('id')
+                  ->on('users')
+                  ->onUpdate('cascade')
+                  ->onDelete('cascade');
 
             $table->timestamps();
         });
